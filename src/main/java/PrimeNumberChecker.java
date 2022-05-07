@@ -18,20 +18,19 @@ public class PrimeNumberChecker {
             try {
                 number = scanner.nextInt();
 
-                if (number == 0 || number == 1) {                 //Dodane żeby rozwiązać problem 0 i 1, jednocześnie
-                    System.exit(0);                       //przerywając działanie programu
+                if (number == 0 || number == 1) {
+                    System.exit(0);
                 } else if (number < 0) {
                     System.out.println("Wrong input! You can enter only positive numbers \n");
                 }
-                if(scanner.hasNextInt())
-                {
-                    System.out.println("Enter one value! Only first value will be checked!");
-                }
+//                if(scanner.hasNextInt())
+//                {
+//                    System.out.println("Enter one value! Only first value will be checked!");
+//                }
             } catch (InputMismatchException e) {
-                System.out.println("Wrong input! You can enter only positive numbers \n");
+                System.out.println("Wrong input! You can enter only positive numbers! \n");
             }
         return number;
-
     }
 
     public static void isPrime(int num){
