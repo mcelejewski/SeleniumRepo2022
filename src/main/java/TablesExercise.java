@@ -4,16 +4,19 @@ public class TablesExercise {
 
     public static void main(String[] args) {
 
-        int tabLength=0;
+        int tabLength;
         String name;
 
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("How many items You want to insert into the table?");
         tabLength = scanner.nextInt();
+        scanner.nextLine();
+
         String[] tab = new String[tabLength];
         System.out.println("Insert names into the table: ");
         for(int i = 0; i<tab.length; i++){
+            System.out.println("");
             name = scanner.nextLine();
             tab[i] = name;
             System.out.println("Index: "+ i +" Imię: " + tab[i]);
