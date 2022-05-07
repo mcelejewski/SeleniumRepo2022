@@ -18,7 +18,7 @@ public class PrimeNumberChecker {
             try {
                 number = scanner.nextInt();
 
-                if (number == 0 || number == 1) {
+                if (number == 0 || number ==1) {
                     System.exit(0);
                 } else if (number < 0) {
                     System.out.println("Wrong input! You can enter only positive numbers \n");
