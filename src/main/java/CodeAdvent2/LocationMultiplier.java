@@ -40,9 +40,9 @@ public class LocationMultiplier {
 //                if(parts[0] == "forward"){
 //                    horizontalPosition += Integer.parseInt(parts[1]);
 //                }else if(parts[0] == "up"){
-//                    depth += Integer.parseInt(parts[1]);
-//                }else{
 //                    depth -= Integer.parseInt(parts[1]);
+//                }else{
+//                    depth += Integer.parseInt(parts[1]);
 //                }
                 //System.out.println("Depth: " + depth);
                 //System.out.println("Horizontal position: " + horizontalPosition);
